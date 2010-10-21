@@ -3,7 +3,7 @@
   :dependencies [[org.clojure/clojure "1.2.0"]
                  [org.clojure/clojure-contrib "1.2.0"]
                  [com.jcraft/jsch "0.1.42"]]
-  :dev-dependencies [[swank-clojure "1.2.1"]
+  :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"]
                      [autodoc "0.7.1"]
                      [log4j/log4j "1.2.14"]]
   :autodoc {:name "clj-ssh"
