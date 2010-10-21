@@ -1,13 +1,8 @@
 (ns clj-ssh.keychain
   "Primitive keychain support for clj-ssh.  Only implemented on OSX at the moment."
   (:require
-   [clojure.contrib.logging :as logging]))
-
-;; working towards clojure 1.1/1.2 compat
-(try
-  (require '[clojure.contrib.shell :as shell])
-  (catch Exception e
-    (require '[clojure.contrib.shell-out :as shell])))
+   [clojure.contrib.logging :as logging]
+   [clojure.java.shell :as shell]))
 
 (defn ask-passphrase [path]
   (when-let [console (. System console)]
