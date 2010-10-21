@@ -1,7 +1,7 @@
 (defproject clj-ssh "0.2.0"
   :description "ssh from clojure"
-  :dependencies [[org.clojure/clojure "1.1.0"]
-                 [org.clojure/clojure-contrib "1.1.0"]
+  :dependencies [[org.clojure/clojure "1.2.0"]
+                 [org.clojure/clojure-contrib "1.2.0"]
                  [com.jcraft/jsch "0.1.42"]]
   :dev-dependencies [[swank-clojure "1.2.1"]
                      [autodoc "0.7.1"]
